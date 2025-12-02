@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Welding Service Management Website",
+        "image": "/images/welding.png",
+        "description": "A full MERN stack welding service platform featuring service listings, real-time updates, admin management, and a clean Tailwind-powered UI. Includes an admin dashboard for editing services, managing projects, and updating content dynamically.",
+        "link": "https://newpro84.netlify.app/",
+        "techStack": [
+            "MongoDB",
+            "Express",
+            "React",
+            "Node.js",
+            "Tailwind CSS",
+            "Admin Panel"
+        ]
+    },
+    {
+        "title": "Netflix Clone",
+        "image": "/images/netflixclone.png",
+        "description": "A responsive Netflix clone built with modern web technologies, featuring a sleek UI and real-time movie data.",
+        "link": "https://gentle-muffin-84bb8d.netlify.app/",
+        "techStack": [
+            "React",
+            "Firebase",
+            "TMDB API",
+            "CSS / Tailwind"
+        ]
+    },
+    {
+        "title": "Admin User Task",
+        "image": "/images/admindashboard.png",
+        "description": "A task management dashboard for admins and users with role-based access and real-time updates.",
+        "link": "https://yourwebsite.com/projects/admin-user-task",
+        "techStack": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JWT Auth"
+        ]
+    },
+    {
+        "title": "Anime Website",
+        "image": "/images/anime.png",
+        "description": "Discover and stream your favorite anime series with stunning visuals, character info, and latest episode updates—all in one place.",
+        "link": "https://yourwebsite.com/projects/anime-website",
+        "techStack": [
+            "React",
+            "Anime API",
+            "Tailwind CSS"
+        ]
+    },
+    {
+        "title": "Personal Branding Card UI",
+        "image": "/images/profile1.png",
+        "description": "A modern interactive personal branding card with clean UI.",
+        "link": "https://pranay8446.github.io/profilecard/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Smart Dark Mode Calculator",
+        "image": "/images/calculator.png",
+        "description": "A clean dark-mode calculator built for smooth interaction and precise operations.",
+        "link": "https://pranay8446.github.io/calculator/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Esports Tournament Finder",
+        "image": "/images/pst.png",
+        "description": "A tournament discovery website with filters for game, prize pool, and entry fee.",
+        "link": "https://pranay8446.github.io/Pst/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Custom Iron Welding Services",
+        "image": "/images/ecom2.png",
+        "description": "A welding service showcase website featuring doors, windows, stairs, and shades.",
+        "link": "https://pranay8446.github.io/Welding/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "title": "Interior Design Studio",
+        "image": "/images/ecom1.png",
+        "description": "A modern interior design website showcasing contemporary furniture and layouts.",
+        "link": "https://pranay8446.github.io/web5/",
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }
+]
