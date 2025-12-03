@@ -54,7 +54,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile */}
-      <div className="md:hidden w-full px-4 flex flex-col items-center h-screen">
+      <div className="md:hidden w-full px-4 flex flex-col items-center">
         <button
           onClick={() => setMobile(mobile === "hidden" ? "block" : "hidden")}
           className="text-white bg-black/40 px-4 py-2 rounded-full border border-white/10 backdrop-blur-sm w-60/100"

@@ -9,7 +9,7 @@ const HeroSection = () => {
         id="home"
         className="h-screen md:h-160 w-full rounded-md flex flex-col items-center justify-center mx-auto py-10 px-6 md:py-0"
     >
-        <div className="flex mt-40">
+        <div className="flex mt-45">
             <div className="h-30 w-30 bg-gray-900 rounded-full">
 
             </div>
@@ -30,7 +30,7 @@ const HeroSection = () => {
                     >
                         Get in touch
                     </Link>
-                    <Link href="/projects" 
+                    <Link href="#projects" 
                         className="font-normal bg-zinc-800 text-white rounded-3xl px-10  py-2"
                     >
                         View project

@@ -28,37 +28,37 @@ const GetInTouch = () => {
   return (
     <div
     id="contact"
-     className="flex flex-col justify-center items-center p-6 mb-20">
-      <h1 className="my-5 text-4xl font-semibold md:mt-25">Contact Me</h1>
+     className="flex flex-col justify-center items-center p-6 mb-40">
+      <h1 className="my-5 text-4xl mt-20 font-semibold md:mt-25">Contact Me</h1>
       <form onSubmit={handleSubmit} className="space-y-4 max-w-md">
         <label htmlFor="name" 
-        className="font-semibold"
+        className="font-medium"
         >Name</label>
         <input
           name="name"
           type="text"
-          className="border border-gray-700 mt-2 rounded-lg p-2 w-full"
+          className="border border-white/10 mt-2 rounded-lg p-2 w-full"
           placeholder="Your Name"
           required
         />
 
         <label htmlFor="email" 
-        className="font-semibold"
+        className="font-medium"
         >Email</label>
         <input
           name="email"
           type="email"
-          className="border border-gray-700 mt-2 rounded-lg p-2 w-full"
+          className="border border-white/10 mt-2 rounded-lg p-2 w-full"
           placeholder="hello@gmail.com"
           required
         />
 
         <label htmlFor="message" 
-        className="font-semibold"
+        className="font-medium"
         >Message</label>
         <textarea
           name="message"
-          className="border border-gray-700 mt-2 rounded-lg p-2 w-full"
+          className="border border-white/10 mt-2 rounded-lg p-2 w-full"
           placeholder="Your Message"
           required
         />

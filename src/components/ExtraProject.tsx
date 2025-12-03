@@ -5,10 +5,10 @@ const ExtraProject = () => {
   
   return (
     <div
-     className="flex justify-center items-center p-5 flex-col">
+     className="flex justify-center items-center p-5 md:p- flex-col">
     
-        <div className="flex items-start w-85/100 md:mt-5">
-            <div className="text-sm">
+        <div className="flex flex-col items-start w-85/100 md:mt-5">
+            <div className="text-sm hidden md:block">
                 <Link href={"/"} 
                 className="text-gray-500"
                 >
@@ -16,19 +16,27 @@ const ExtraProject = () => {
                 </Link>
                 <span className="mx-1"> Project</span>
             </div>
+            <div className="text-center my-5">
+                <Link href={"/"} 
+                className="border border-white/20 px-3 py-2 text-sm rounded-full" 
+                >
+                    Back to Home
+                </Link>
+                
+            </div>
         </div>
       <div>
-        <h1 className="text-4xl font-semibold md:mt-10 mb-5">My Extra Project</h1>
+        <h1 className="text-4xl mt-4 font-semibold md:mt-5 mb-5">My Extra Project</h1>
       </div>
-      <div className="h-auto flex flex-col md:grid md:grid-cols-3 gap-4 m-2 md:w-85/100">
+      <div className="h-auto flex flex-col mb-20 md:grid md:grid-cols-3 gap-4 m-2 md:w-85/100">
 
 
         {extraProject.map((elem) => (
           <div
             key={elem.title}
-           className="h-full border border-gray-700 p-6">
+           className="h-full border border-white/10 p-6">
 
-            <div className="bg-red-400 h-45 md:h-45 w-full">
+            <div className="h-45 md:h-45 w-full">
                 <img src={elem.image} alt={elem.title} 
                   className="h-full w-full bg-cover hover:scale-105 transition-all"
                 />
@@ -57,14 +65,6 @@ const ExtraProject = () => {
 
           </div>
         ))}
-      </div>
-
-      <div className="text-center mt-4">
-        <Link href={"/projects"} 
-        className="border border-gray-400 px-3 py-1 text-sm rounded-full md:text-base md:py-2 md:px-4"
-        >
-          View all project
-        </Link>
       </div>
     </div>
   )

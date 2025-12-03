@@ -18,7 +18,7 @@ const AboutSection = () => {
     >
         
         <div className="text-center p-5 md:w-2/3 ">
-            <h1 className="text-4xl mb-5 font-semibold md:mt-25">About me</h1>
+            <h1 className="text-4xl mb-5 mt-20 font-semibold md:mt-25">About me</h1>
             {data.map((elem) => (
                 <p  key={elem.text}
                     className="m-3 text-lg"
