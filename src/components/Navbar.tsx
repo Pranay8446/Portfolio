@@ -39,7 +39,6 @@ const Navbar = () => {
       className="fixed top-10 left-1/2 -translate-x-1/2 z-50 w-full flex justify-center"
     >
 
-      {/* Desktop */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -66,7 +65,6 @@ const Navbar = () => {
         </div>
       </motion.div>
 
-      {/* Mobile */}
       <div className="md:hidden w-full px-4 flex flex-col items-center">
         <motion.button
           whileTap={{ scale: 0.9 }}
@@ -85,28 +83,28 @@ const Navbar = () => {
               transition={{ duration: 0.35 }}
               className="absolute bg-black/40 border z-7 border-white/10 backdrop-blur-md px-6 py-4 rounded-xl w-full h-screen"
             >
-              <div className="mt-3 flex flex-col items-center gap-2 border border-gray-800 rounded-2xl p-4">
+              <div className="mt-3 flex flex-col items-center gap-2 border border-white/10 rounded-2xl p-4">
                 <div className="flex justify-between items-center w-full p-4">
                   <h1>Navigation</h1>
 
                   <motion.button
                     whileTap={{ scale: 0.9 }}
-                    className="border border-gray-400 p-2"
+                    className="border border-gray-400 p-1"
                     onClick={() => setMobile(false)}
                   >
-                    <X />
+                    <X size={12} />
                   </motion.button>
                 </div>
 
                 {links.map((link) => (
-                  <motion.div key={link.id} whileTap={{ scale: 0.95 }} className="w-full">
+                  <motion.div key={link.id} whileTap={{ scale: 0.95 }} className="w-full flex">
                     <Link
                       href={`#${link.id}`}
                       onClick={() => setMobile(false)}
                       className={
                         active === link.id
-                          ? "px-4 py-2 m-2 rounded-md bg-white/10 text-white w-full text-center"
-                          : "px-4 py-2 m-2 rounded-md text-white/60 hover:text-white hover:bg-white/5 w-full text-center"
+                          ? "px-4 py-2  rounded-md bg-white/10 text-white w-full text-center"
+                          : "px-4 py-2  rounded-md text-white/60 hover:text-white hover:bg-white/5 w-full text-center"
                       }
                     >
                       {link.name}
