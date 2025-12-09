@@ -20,7 +20,6 @@ const HeroSection = () => {
       className="h-screen md:h-160 w-full rounded-md flex flex-col items-center justify-center mx-auto py-10 px-6 md:py-0"
     >
 
-      {/* Profile Circle */}
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 30 },
@@ -29,12 +28,11 @@ const HeroSection = () => {
         transition={{ duration: 0.6 }}
         className="flex mt-45"
       >
-        <div className="h-30 w-30 bg-gray-900 rounded-full">
-          <img src="/images/self.jpg" alt="Photo" className="bg-center bg- h-30 w-30 bg-gray-900 rounded-full"/>
+        <div className="h-30 w-30 bg-gray-900 rounded-full md:w-35 md:h-35 ">
+          <img src="/images/self.jpg" alt="Photo" className=" h-30 w-30 rounded-full object-center md:w-35 md:h-35 "/>
         </div>
       </motion.div>
 
-      {/* Heading + Text */}
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 40 },
@@ -56,7 +54,6 @@ const HeroSection = () => {
         </p>
       </motion.div>
 
-      {/* Buttons + Socials */}
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 30 },
@@ -65,13 +62,13 @@ const HeroSection = () => {
         transition={{ duration: 0.6 }}
         className="flex flex-col md:flex-row md:gap-3"
       >
-        <div className="mt-5 flex flex-col md:flex-row md:gap-3">
+        <div className="mt-5 flex flex-col justify-center items-center md:flex-row md:gap-3">
           
           {/* Buttons */}
           <motion.div whileTap={{ scale: 0.95 }}>
             <Link
               href="#contact"
-              className="flex gap-1 items-center font-normal bg-white text-black rounded-3xl px-10 mb-2 md:mb-0 py-2"
+              className="flex items-center font-normal bg-white text-black rounded-3xl px-10 mb-4 md:mb-0 py-2"
             >
               Get in touch <ChevronRight size={22} />
             </Link>
@@ -80,12 +77,12 @@ const HeroSection = () => {
           <motion.div whileTap={{ scale: 0.95 }}>
             <Link
               href="#projects"
-              className="font-normal bg-zinc-800 text-white rounded-3xl px-10 py-2"
+              className="font-normal bg-zinc-800 text-white rounded-3xl px-13 py-3"
             >
               View project
             </Link>
           </motion.div>
-
+             
           <motion.div whileTap={{ scale: 0.95 }}>
             <Link
               href=""
@@ -96,13 +93,12 @@ const HeroSection = () => {
           </motion.div>
         </div>
 
-        {/* Social Icons */}
-        <div className="flex justify-center items-center gap-3 mt-3">
+        <div className="flex justify-center items-center gap-3 mt-4">
 
           <motion.a
             whileHover={{ scale: 1.15 }}
             whileTap={{ scale: 0.9 }}
-            href=""
+            href="https://www.linkedin.com/in/pranay-chandurkar/"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-gray-700 p-2 rounded-full"
@@ -124,7 +120,7 @@ const HeroSection = () => {
           <motion.a
             whileHover={{ scale: 1.15 }}
             whileTap={{ scale: 0.9 }}
-            href=""
+            href="https://www.instagram.com/pranay84_?igsh=azh4a2MwcDE1cGtn"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-gray-700 p-2 rounded-full"

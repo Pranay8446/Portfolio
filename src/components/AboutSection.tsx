@@ -24,7 +24,7 @@ const AboutSection = () => {
       className="h-auto flex flex-col justify-center items-center mt-4"
     >
 
-      <div className="text-center p-5 md:w-2/3 ">
+      <div className="text-center p-5 md:w-3/5 ">
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
