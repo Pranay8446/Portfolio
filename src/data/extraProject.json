@@ -29,7 +29,7 @@
         "title": "Admin User Task",
         "image": "/images/admindashboard.png",
         "description": "A task management dashboard for admins and users with role-based access and real-time updates.",
-        "link": "https://yourwebsite.com/projects/admin-user-task",
+        "link": "https://adminemployeetask.netlify.app/",
         "techStack": [
             "React",
             "Node.js",
@@ -42,7 +42,7 @@
         "title": "Anime Website",
         "image": "/images/anime.png",
         "description": "Discover and stream your favorite anime series with stunning visuals, character info, and latest episode updates—all in one place.",
-        "link": "https://yourwebsite.com/projects/anime-website",
+        "link": "https://pranay8446.github.io/web2/",
         "techStack": [
             "React",
             "Anime API",
